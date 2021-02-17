@@ -13,14 +13,6 @@
 # limitations under the License.
 
 #############################################################################
-# Provider
-
-variable "region" {
-  type        = string
-  description = "AWS Region"
-}
-
-#############################################################################
 # Cert-Manager
 
 variable "cluster_name" {
