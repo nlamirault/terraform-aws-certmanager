@@ -8,7 +8,7 @@
 module "external_dns" {
   source  = "nlamirault/cert-manager/aws"
   version = "1.0.0"
-  
+
   project = var.project
 
   namespace       = var.namespace
