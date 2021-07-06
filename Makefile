@@ -1,5 +1,5 @@
 # Copyright (C) 2021 Nicolas Lamirault <nicolas.lamirault@gmail.com>
-
+#
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
@@ -13,12 +13,6 @@
 # limitations under the License.
 
 APP = T E R R A F O R M  /  A W S - C E R T - M A N A G E R
-
-# GCP_PROJECT_preprod =
-# GCP_PROJECT_prod =
-# GCP_PROJECT = $(GCP_PROJECT_$(ENV))
-GCP_PROJECT = galactus
-GCP_CURRENT_PROJECT = $(shell gcloud info --format='value(config.project)')
 
 SHELL = /bin/bash -o pipefail
 
